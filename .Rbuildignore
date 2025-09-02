@@ -1,0 +1,7 @@
+^\.github$
+^\.vscode$
+^README\.Rmd$
+^pkgdown$
+^docs$
+^.*\.Rproj$
+^\.Rproj\.user$
