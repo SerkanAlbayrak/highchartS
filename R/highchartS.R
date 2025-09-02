@@ -36,17 +36,29 @@ highchartS <- function(series,
 highcharts_dependency <- function() {
   htmltools::htmlDependency(
     name    = "highcharts",
-    version = "11.4.0",   # siz hangi sürümü indirdiyseniz yazın
-    src     = "htmlwidgets/lib/highcharts",   # paketteki local path
+    version = "11.4.0",
+    src     = "htmlwidgets/lib/highcharts",
     package = "highchartS",
     script  = c(
       "highstock.js",
-      "exporting.js",
-      "data.js",
-      "boost.js",
-      "drilldown.js",
       "highcharts-more.js",
-      "solid-gauge.js"
+      "modules/accessibility.js",
+      "modules/boost.js",
+      "modules/data.js",
+      "modules/drilldown.js",
+      "modules/solid-gauge.js",
+      "modules/drag-panes.js",
+      "modules/exporting.js",
+      "modules/annotations.js",
+      "modules/annotations-advanced.js",
+      "modules/stock-tools.js",
+      "indicators/indicators.js",
+      "indicators/volume-by-price.js",
+      "themes/adaptive.js"
+    ),
+    stylesheet = c(
+      "css/stocktools/gui.css",
+      "css/annotations/popup.css"
     )
   )
 }
