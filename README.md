@@ -13,7 +13,7 @@ For **commercial use**, you must obtain a license from [Highsoft AS](https://sho
 
 ```
 # install.packages("remotes")
-remotes::install_github("YOUR_GITHUB_USERNAME/highchartS")
+remotes::install_github("SerkanAlbayrak/highchartS")
 ```
 
 ## Example
