@@ -64,7 +64,7 @@ This will render an interactive stock chart with **price** and **volume** panels
 
 ## License
 
-- **R wrapper code:** MIT License © YOUR_NAME  
+- **R wrapper code:** MIT License © Raif Serkan Albayrak  
 - **Highcharts/Highstock JavaScript files:** © Highsoft AS  
   - Free for **non-commercial** and academic/educational use  
   - Commercial users must obtain a [valid license](https://www.highcharts.com/license)  
